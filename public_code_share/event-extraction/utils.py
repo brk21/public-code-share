@@ -16,7 +16,7 @@ def neighborhood_long(iterable):
     yield (second_prev_item, prev_item, current_item, next_item, None)
     
 def neighborhood_short(iterable):
-    """PULL NEIGHBORHOOD AROUND EACH SENTENCE: ONE SENTENCES TO EITHER SIDE"""
+    """PULL NEIGHBORHOOD AROUND EACH SENTENCE: ONE SENTENCE TO EITHER SIDE"""
     iterator = iter(iterable)
     prev_item = None
     current_item = next(iterator)  # throws StopIteration if empty.
