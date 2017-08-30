@@ -1,5 +1,3 @@
-#import webhoseio
-#webhoseio.config(token="b2e1460b-80ec-49a9-8efc-3288291820c7")
 import pandas as pd
 import datetime
 import os, sys
@@ -47,7 +45,7 @@ LOCAL_PATH = '/home/ec2-user/tmp/'
 
 AWS_ACCESS_KEY_ID = aws_creds['AWS_ACCESS_KEY_ID']
 AWS_SECRET_ACCESS_KEY = aws_creds['AWS_SECRET_ACCESS_KEY']
-bucket_name = 'event-extraction'
+bucket_name = 'BUCKET NAME'
 
 files_processed = 0
 
